@@ -9,16 +9,16 @@ import Cover6 from "@/static/images/6/02-602-01-cover.jpg";
 import Cover7 from "@/static/images/7/01-904-01-cover.jpg";
 import Cover9 from "@/static/images/9/A-36-01-cover.jpg";
 import Cover10 from "@/static/images/10/A-30-2-03-cover.jpg";
-import Cover11Temp from "@/static/images/11/01-586-02.jpg";
-import Cover12 from "@/static/images/12/6.jpg";
+import Cover11 from "@/static/images/11/11-cover.jpg";
+import Cover12 from "@/static/images/12/12-cover.jpg";
 import Cover13 from "@/static/images/13/01-268-1-cover.jpg";
-import Cover14 from "@/static/images/14/cover.jpg";
+import Cover14 from "@/static/images/14/14-cover.jpg";
 import Cover15 from "@/static/images/15/01-021-cover.jpg";
 import Cover16 from "@/static/images/16/IMG_7066-cover.png";
-import Cover17 from "@/static/images/17/cover.jpg";
+import Cover17 from "@/static/images/17/17-cover.jpg";
 import Cover18 from "@/static/images/18/C-53-1-cover.jpg";
-import Cover19 from "@/static/images/19/cover.jpg";
-import Cover24 from "@/static/images/24/01-165.jpg";
+import Cover19 from "@/static/images/19/19-cover.jpg";
+import Cover24 from "@/static/images/24/24-cover.jpg";
 
 const MAIN_IMAGE_LIST = [
   { src: Cover1, alt: "main-image-1" },
@@ -30,7 +30,7 @@ const MAIN_IMAGE_LIST = [
   { src: Cover7, alt: "main-image-7" },
   { src: Cover9, alt: "main-image-9" },
   { src: Cover10, alt: "main-image-10" },
-  { src: Cover11Temp, alt: "main-image-11" },
+  { src: Cover11, alt: "main-image-11" },
   { src: Cover12, alt: "main-image-12" },
   { src: Cover13, alt: "main-image-13" },
   { src: Cover14, alt: "main-image-14" },
