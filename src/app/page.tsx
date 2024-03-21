@@ -56,6 +56,7 @@ export default function Home() {
                     alt={image.alt}
                     fill
                     className={"object-cover"}
+                    priority={index < 8}
                   />
                 </div>
               </Link>
