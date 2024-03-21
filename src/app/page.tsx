@@ -9,7 +9,7 @@ import Cover6 from "@/static/images/6/02-602-01-cover.webp";
 import Cover7 from "@/static/images/7/01-904-01-cover.webp";
 import Cover9 from "@/static/images/9/A-36-01-cover.webp";
 import Cover10 from "@/static/images/10/A-30-2-03-cover.webp";
-import Cover11 from "@/static/images/11/11-cover.webp";
+import Cover11 from "@/static/images/11/cover.webp";
 import Cover12 from "@/static/images/12/12-cover.webp";
 import Cover13 from "@/static/images/13/01-268-1-cover.webp";
 import Cover14 from "@/static/images/14/14-cover.webp";
