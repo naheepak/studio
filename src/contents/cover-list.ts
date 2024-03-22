@@ -120,13 +120,13 @@ export const MAIN_COVER_IMAGE_LIST = [
     hiddenAlt: "hidden-image-1",
     id: "13",
   },
-  {
-    src: Cover11,
-    alt: "main-image-11",
-    hiddenSrc: HiddenCover1,
-    hiddenAlt: "hidden-image-1",
-    id: "14",
-  },
+  // {
+  //   src: Cover11,
+  //   alt: "main-image-11",
+  //   hiddenSrc: HiddenCover1,
+  //   hiddenAlt: "hidden-image-1",
+  //   id: "14",
+  // },
 
   {
     src: Cover15,

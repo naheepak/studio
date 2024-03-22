@@ -170,6 +170,7 @@ import Detail7in24 from "@/static/images/24/01-043.webp";
 import Detail8in24 from "@/static/images/24/01-082.webp";
 import Detail9in24 from "@/static/images/24/01-406.webp";
 import Detail10in24 from "@/static/images/24/01-443.webp";
+import Detail11in24 from "@/static/images/24/24-cover.webp";
 
 export const DETAIL_IMAGE_LIST = [
   {
@@ -674,75 +675,75 @@ export const DETAIL_IMAGE_LIST = [
       },
     ],
   },
-  {
-    id: "14",
-    imageList: [
-      {
-        src: DetailCover11,
-        alt: "detail-cover-11",
-      },
-      {
-        src: Detail1in11,
-        alt: "detail11-1",
-      },
-      {
-        src: Detail2in11,
-        alt: "detail11-2",
-      },
-      {
-        src: Detail3in11,
-        alt: "detail11-3",
-      },
-      {
-        src: Detail4in11,
-        alt: "detail11-4",
-      },
-      {
-        src: Detail5in11,
-        alt: "detail11-5",
-      },
-      {
-        src: Detail6in11,
-        alt: "detail11-6",
-      },
-      {
-        src: Detail7in11,
-        alt: "detail11-7",
-      },
-      {
-        src: Detail8in11,
-        alt: "detail11-8",
-      },
-      {
-        src: Detail9in11,
-        alt: "detail11-9",
-      },
-      {
-        src: Detail10in11,
-        alt: "detail11-10",
-      },
-      {
-        src: Detail11in11,
-        alt: "detail11-11",
-      },
-      {
-        src: Detail12in11,
-        alt: "detail11-12",
-      },
-      {
-        src: Detail13in11,
-        alt: "detail11-13",
-      },
-      {
-        src: Detail14in11,
-        alt: "detail11-14",
-      },
-      {
-        src: Detail15in11,
-        alt: "detail11-15",
-      },
-    ],
-  },
+  // {
+  //   id: "14",
+  //   imageList: [
+  //     {
+  //       src: DetailCover11,
+  //       alt: "detail-cover-11",
+  //     },
+  //     {
+  //       src: Detail1in11,
+  //       alt: "detail11-1",
+  //     },
+  //     {
+  //       src: Detail2in11,
+  //       alt: "detail11-2",
+  //     },
+  //     {
+  //       src: Detail3in11,
+  //       alt: "detail11-3",
+  //     },
+  //     {
+  //       src: Detail4in11,
+  //       alt: "detail11-4",
+  //     },
+  //     {
+  //       src: Detail5in11,
+  //       alt: "detail11-5",
+  //     },
+  //     {
+  //       src: Detail6in11,
+  //       alt: "detail11-6",
+  //     },
+  //     {
+  //       src: Detail7in11,
+  //       alt: "detail11-7",
+  //     },
+  //     {
+  //       src: Detail8in11,
+  //       alt: "detail11-8",
+  //     },
+  //     {
+  //       src: Detail9in11,
+  //       alt: "detail11-9",
+  //     },
+  //     {
+  //       src: Detail10in11,
+  //       alt: "detail11-10",
+  //     },
+  //     {
+  //       src: Detail11in11,
+  //       alt: "detail11-11",
+  //     },
+  //     {
+  //       src: Detail12in11,
+  //       alt: "detail11-12",
+  //     },
+  //     {
+  //       src: Detail13in11,
+  //       alt: "detail11-13",
+  //     },
+  //     {
+  //       src: Detail14in11,
+  //       alt: "detail11-14",
+  //     },
+  //     {
+  //       src: Detail15in11,
+  //       alt: "detail11-15",
+  //     },
+  //   ],
+  // },
   {
     id: "15",
     imageList: [
@@ -918,6 +919,10 @@ export const DETAIL_IMAGE_LIST = [
   {
     id: "19",
     imageList: [
+      {
+        src: Detail11in24,
+        alt: "detail-cover-24",
+      },
       {
         src: Detail1in24,
         alt: "detail24-1",
