@@ -33,6 +33,9 @@ export default function RootLayout({
           <Link href="/">NAHEE PAK</Link>
         </header>
         {children}
+        <footer className={"text-sm h-96 flex justify-center items-center"}>
+          All rights reserved. ©2024
+        </footer>
       </body>
     </html>
   );
