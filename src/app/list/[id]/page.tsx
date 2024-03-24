@@ -18,13 +18,19 @@ export default function Detail({ params }: { params: Params }) {
       >
         {item.imageList.map((image, index) => {
           return (
-            <li key={index} className={"mx-auto relative pb-[133%] w-full"}>
+            <li
+              key={index}
+              style={{ fontSize: 0, lineHeight: 0 }}
+              className={"mx-auto relative w-full h-auto overflow-hidden"}
+            >
               <Image
                 src={image.src}
                 alt={image.alt}
-                fill
-                className={"object-cover"}
-                placeholder={"blur"}
+                style={{ position: "relative" }}
+                width={0}
+                height={0}
+                sizes={"100vw"}
+                className={"object-contain md:object-cover w-full h-full"}
               />
             </li>
           );
