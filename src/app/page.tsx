@@ -9,7 +9,7 @@ export default function Home() {
         {MAIN_COVER_IMAGE_LIST.map((image, index) => {
           return (
             <li key={index} className="w-full mb-4 lg:mb-0">
-              <Link href={`/evbt/list/${image.id}`}>
+              <Link href={`/evbt/${image.id}`}>
                 <div className="w-full relative pb-[133%]">
                   <Image
                     src={image.src}
