@@ -30,6 +30,7 @@ export default function Detail({ params }: { params: Params }) {
                 width={0}
                 height={0}
                 sizes={"100vw"}
+                placeholder={"blur"}
                 className={"object-contain md:object-cover w-full h-full"}
               />
             </li>
