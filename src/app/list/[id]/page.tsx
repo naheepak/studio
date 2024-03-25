@@ -4,6 +4,14 @@ import Image from "next/image";
 type Params = {
   [key: string]: string | number | string[] | undefined;
 };
+export function generateStaticParams() {
+  return DETAIL_IMAGE_LIST.map((item) => {
+    return {
+      id: item.id.toString(),
+    };
+  });
+}
+
 export default function Detail({ params }: { params: Params }) {
   const item = DETAIL_IMAGE_LIST.find((item) => item.id === params.id);
 
