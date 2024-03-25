@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     output: 'export',
-    assetPrefix: '/nahee-2024',
+    assetPrefix: '/evbt',
     images:{
         unoptimized: true
     },
