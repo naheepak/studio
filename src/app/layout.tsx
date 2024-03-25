@@ -30,7 +30,7 @@ export default function RootLayout({
         <header
           className={`${archivoBlack.className} flex justify-center items-center min-h-20 text-xl md:text-2xl tracking-tighter`}
         >
-          <Link href="/">NAHEE PAK</Link>
+          <Link href="/nahee-2024/list">NAHEE PAK</Link>
         </header>
         {children}
         <footer className={"text-sm h-96 flex justify-center items-center"}>
