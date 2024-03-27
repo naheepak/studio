@@ -20,7 +20,7 @@ import Cover18 from "@/static/images/18/C-53-1-cover.webp";
 import Cover19 from "@/static/images/19/19-cover.webp";
 import Cover24 from "@/static/images/24/24-cover.webp";
 
-export const MAIN_COVER_IMAGE_LIST = [
+export const FIRST_COVER_IMAGE_LIST = [
   {
     src: Cover1,
     alt: "main-image-1",
@@ -77,6 +77,9 @@ export const MAIN_COVER_IMAGE_LIST = [
     hiddenAlt: "hidden-image-1",
     id: "4",
   },
+];
+
+export const SECOND_COVER_IMAGE_LIST = [
   {
     src: Cover8,
     alt: "main-image-8",

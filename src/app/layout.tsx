@@ -1,13 +1,7 @@
 import type { Metadata } from "next";
-import { Archivo_Black, Manrope } from "next/font/google";
+import { Manrope } from "next/font/google";
 import "./globals.css";
-import Link from "next/link";
-
-const archivoBlack = Archivo_Black({
-  subsets: ["latin"],
-  style: "normal",
-  weight: "400",
-});
+import Header from "@/components/Header";
 
 const manrope = Manrope({
   subsets: ["latin"],
@@ -27,11 +21,7 @@ export default function RootLayout({
   return (
     <html lang="ko">
       <body className={manrope.className}>
-        <header
-          className={`${archivoBlack.className} flex justify-center items-center min-h-20 text-xl md:text-2xl tracking-tighter`}
-        >
-          <Link href="/evbt">NAHEE PAK</Link>
-        </header>
+        <Header />
         {children}
         <footer className={"text-sm h-96 flex justify-center items-center"}>
           All rights reserved. ©2024
