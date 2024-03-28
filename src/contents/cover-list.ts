@@ -19,6 +19,14 @@ import Cover17 from "@/static/images/17/17-cover.webp";
 import Cover18 from "@/static/images/18/C-53-1-cover.webp";
 import Cover19 from "@/static/images/19/19-cover.webp";
 import Cover24 from "@/static/images/24/24-cover.webp";
+import TempCover1 from "@/static/temp/01-313-01 cover.webp";
+import TempCover2 from "@/static/temp/01-610-01_f1.webp";
+import TempCover4 from "@/static/temp/01-952-02 cover.webp";
+import TempCover5 from "@/static/temp/Niziu SN cover.webp";
+import TempCover6 from "@/static/temp/commercial-1-cover.webp";
+import TempCover7 from "@/static/temp/commercial-2-cover.webp";
+import TempCover8 from "@/static/temp/commercial-3-cover.webp";
+import TempCover9 from "@/static/temp/commercial-4-cover.webp";
 
 export const FIRST_COVER_IMAGE_LIST = [
   {
@@ -79,20 +87,55 @@ export const FIRST_COVER_IMAGE_LIST = [
   },
 ];
 
-export const SECOND_COVER_IMAGE_LIST = [
+export const TEMP_COVER_IMAGE_LIST = [
   {
-    src: Cover8,
-    alt: "main-image-8",
-    hiddenSrc: HiddenCover1,
-    hiddenAlt: "hidden-image-1",
-    id: "20",
+    src: TempCover1,
+    alt: "temp-image-1",
   },
+  {
+    src: TempCover4,
+    alt: "temp-image-4",
+  },
+  {
+    src: TempCover2,
+    alt: "temp-image-2",
+  },
+  {
+    src: TempCover5,
+    alt: "temp-image-5",
+  },
+  {
+    src: TempCover9,
+    alt: "temp-image-9",
+  },
+  {
+    src: TempCover8,
+    alt: "temp-image-8",
+  },
+  {
+    src: TempCover6,
+    alt: "temp-image-6",
+  },
+  {
+    src: TempCover7,
+    alt: "temp-image-7",
+  },
+];
+
+export const SECOND_COVER_IMAGE_LIST = [
   {
     src: Cover9,
     alt: "main-image-9",
     hiddenSrc: HiddenCover1,
     hiddenAlt: "hidden-image-1",
     id: "8",
+  },
+  {
+    src: Cover8,
+    alt: "main-image-8",
+    hiddenSrc: HiddenCover1,
+    hiddenAlt: "hidden-image-1",
+    id: "20",
   },
   {
     src: Cover14,

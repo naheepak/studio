@@ -27,7 +27,10 @@ export default function Header() {
           <Link
             className={classNames({
               underline:
-                pathname === PAGE_URL.MAIN || isSelected(PAGE_URL.FIRST.LIST),
+                pathname === PAGE_URL.MAIN ||
+                pathname === "/evbt/" ||
+                pathname === "/evbt/out/index.html" ||
+                isSelected(PAGE_URL.FIRST.LIST),
             })}
             href={PAGE_URL.MAIN}
           >
