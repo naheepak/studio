@@ -14,11 +14,21 @@ const archivoBlack = Archivo_Black({
 export default function Header() {
   const pathname = usePathname();
 
-  console.log(pathname);
-
   const isSelected = (url: string) => {
     return pathname.startsWith(url);
   };
+
+  console.log(
+    pathname,
+    pathname === PAGE_URL.MAIN,
+    pathname === "/evbt/",
+    pathname === "/evbt/out/index.html",
+    isSelected(PAGE_URL.FIRST.LIST),
+    pathname === PAGE_URL.MAIN ||
+      pathname === "/evbt/" ||
+      pathname === "/evbt/out/index.html" ||
+      isSelected(PAGE_URL.FIRST.LIST),
+  );
 
   return (
     <header
