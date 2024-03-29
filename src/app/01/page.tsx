@@ -5,7 +5,6 @@ import {
   TEMP_COVER_IMAGE_LIST,
 } from "@/contents/cover-list";
 import { PAGE_URL } from "@/constants/url";
-import TempCover3 from "@/static/temp/02-43-01 low cover.webp";
 
 export default function Home() {
   return (

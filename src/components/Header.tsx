@@ -18,18 +18,6 @@ export default function Header() {
     return pathname.startsWith(url);
   };
 
-  console.log(
-    pathname,
-    pathname === PAGE_URL.MAIN,
-    pathname === "/evbt/",
-    pathname === "/evbt/out/index.html",
-    isSelected(PAGE_URL.FIRST.LIST),
-    pathname === PAGE_URL.MAIN ||
-      pathname === "/evbt/" ||
-      pathname === "/evbt/out/index.html" ||
-      isSelected(PAGE_URL.FIRST.LIST),
-  );
-
   return (
     <header
       className={`${archivoBlack.className} flex justify-between items-center min-h-20 tracking-tighter px-6 md:px-8`}
