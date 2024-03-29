@@ -41,7 +41,7 @@ export default function Header() {
               underline:
                 pathname === PAGE_URL.MAIN ||
                 pathname === "/evbt/" ||
-                pathname === "/evbt/out/index.html" ||
+                pathname === "/" ||
                 isSelected(PAGE_URL.FIRST.LIST),
             })}
             href={PAGE_URL.MAIN}
