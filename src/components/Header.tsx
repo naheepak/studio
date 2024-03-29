@@ -22,7 +22,7 @@ export default function Header() {
     <header
       className={`${archivoBlack.className} flex justify-between items-center min-h-20 tracking-tighter px-6 md:px-8`}
     >
-      <ul className={"flex text-lg md:text-xl gap-x-2"}>
+      <ul className={"flex text-md md:text-lg gap-x-2"}>
         <li>
           <Link
             className={classNames({

@@ -1,19 +1,23 @@
-import { DETAIL_IMAGE_LIST } from "@/contents/detail-list";
 import Image from "next/image";
+import { DETAIL_IMAGE_MAP } from "@/app/01/contents/detail-image-map";
 
 type Params = {
   [key: string]: string | number | string[] | undefined;
 };
 export function generateStaticParams() {
-  return DETAIL_IMAGE_LIST.map((item) => {
-    return {
-      id: item.id.toString(),
-    };
-  });
+  const ids = [];
+
+  for (const key in DETAIL_IMAGE_MAP) {
+    if (DETAIL_IMAGE_MAP.hasOwnProperty(key)) {
+      ids.push({ id: key });
+    }
+  }
+
+  return ids;
 }
 
 export default function Detail({ params }: { params: Params }) {
-  const item = DETAIL_IMAGE_LIST.find((item) => item.id === params.id);
+  const item = DETAIL_IMAGE_MAP[params.id as string];
 
   if (!item) {
     return <div>Not Found</div>;
@@ -33,7 +37,7 @@ export default function Detail({ params }: { params: Params }) {
             >
               <Image
                 src={image.src}
-                alt={image.alt}
+                alt={`detail-image-${index}`}
                 style={{ position: "relative" }}
                 width={0}
                 height={0}
