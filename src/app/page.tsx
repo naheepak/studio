@@ -6,7 +6,7 @@ import classNames from "classnames";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen w-screen flex-col items-center">
+    <main className="flex md:min-h-screen w-screen flex-col items-center">
       <ul className="grid grid-cols-1 md:grid-cols-4 gap-4 px-6 md:px-8 w-full">
         {COVER_IMAGE_LIST.map((image, index) => {
           return (

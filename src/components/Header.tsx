@@ -20,9 +20,14 @@ export default function Header() {
 
   return (
     <header
-      className={`${archivoBlack.className} flex justify-between items-center min-h-20 tracking-tighter px-6 md:px-8`}
+      className={`${archivoBlack.className} relative min-h-20 tracking-tighter px-6 md:px-8`}
     >
-      <ul className={"flex text-md md:text-lg gap-x-2"}>
+      <ul
+        style={{ transform: "translateY(-50%)" }}
+        className={
+          "absolute left-6 md:left-8 top-1/2 flex text-md md:text-lg gap-x-2"
+        }
+      >
         <li>
           <Link
             className={classNames({
@@ -47,11 +52,24 @@ export default function Header() {
             01
           </Link>
         </li>
+        <li>
+          <Link
+            className={classNames({
+              underline: isSelected(PAGE_URL.THIRD.LIST),
+            })}
+            href={PAGE_URL.THIRD.LIST}
+          >
+            02
+          </Link>
+        </li>
       </ul>
-      <Link href={PAGE_URL.MAIN} className={"text-xl md:text-2xl"}>
+      <Link
+        href={PAGE_URL.MAIN}
+        style={{ transform: "translate(-50%, -50%)" }}
+        className={"absolute text-xl md:text-2xl left-1/2 top-1/2"}
+      >
         NAHEE PAK
       </Link>
-      <div />
     </header>
   );
 }

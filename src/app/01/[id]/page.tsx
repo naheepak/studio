@@ -24,7 +24,7 @@ export default function Detail({ params }: { params: Params }) {
   }
 
   return (
-    <main className="flex min-h-screen w-screen flex-col items-center">
+    <main className="flex md:min-h-screen w-screen flex-col items-center">
       <ul
         className={"grid gap-3.5 pb-5 w-full md:w-1/2 grid-cols-1 px-6 md:px-8"}
       >
