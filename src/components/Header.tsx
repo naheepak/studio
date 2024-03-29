@@ -14,6 +14,8 @@ const archivoBlack = Archivo_Black({
 export default function Header() {
   const pathname = usePathname();
 
+  console.log(pathname);
+
   const isSelected = (url: string) => {
     return pathname.startsWith(url);
   };

@@ -3,6 +3,8 @@ import Link from "next/link";
 import { FIRST_COVER_IMAGE_LIST } from "@/contents/cover-list";
 import { PAGE_URL } from "@/constants/url";
 
+import TempCover from "@/static/temp/min.webp";
+
 export default function Home() {
   return (
     <main className="flex min-h-screen w-screen flex-col items-center">
@@ -24,6 +26,17 @@ export default function Home() {
             </li>
           );
         })}
+        <li className="w-full mb-4 lg:mb-0">
+          <div className="w-full relative pb-[133%]">
+            <Image
+              src={TempCover}
+              alt={"temp cover image"}
+              fill
+              className={"object-cover z-10"}
+              placeholder={"blur"}
+            />
+          </div>
+        </li>
       </ul>
     </main>
   );
