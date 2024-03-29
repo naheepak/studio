@@ -80,6 +80,48 @@ import Detail12in11 from "@/static/images/01/11/C-262-1.webp";
 import Detail13in11 from "@/static/images/01/11/C-308-1-copy.webp";
 import Detail14in11 from "@/static/images/01/11/C-331-1.webp";
 import Detail15in11 from "@/static/images/01/11/C-386-1.webp";
+import Detail1in12 from "@/static/images/01/12/01-224-01edit crop cover.webp";
+import Detail2in12 from "@/static/images/01/12/01-313-01edit.webp";
+import Detail1in13 from "@/static/images/01/13/01-127-02.webp";
+import Detail2in13 from "@/static/images/01/13/01-168-02.webp";
+import Detail3in13 from "@/static/images/01/13/01-482-02.webp";
+import Detail4in13 from "@/static/images/01/13/01-495-02.webp";
+import Detail5in13 from "@/static/images/01/13/01-601-02.webp";
+import Detail6in13 from "@/static/images/01/13/01-633-02.webp";
+import Detail7in13 from "@/static/images/01/13/01-739-02.webp";
+import Detail8in13 from "@/static/images/01/13/01-754-02.webp";
+import Detail9in13 from "@/static/images/01/13/01-912-02.webp";
+import Detail10in13 from "@/static/images/01/13/01-1126-02.webp";
+import Detail11in13 from "@/static/images/01/13/01-1154-02.webp";
+import Detail12in13 from "@/static/images/01/13/01-952-02 cover.webp";
+import Detail2in14 from "@/static/images/01/14/01-230-01_f1_edit.webp";
+import Detail3in14 from "@/static/images/01/14/01-261-01_f1_edit.webp";
+import Detail4in14 from "@/static/images/01/14/01-403-01_f1_edit.webp";
+import Detail5in14 from "@/static/images/01/14/01-422-01_f1_edit.webp";
+import Detail6in14 from "@/static/images/01/14/01-610-01_f1_edit.webp";
+import Detail7in14 from "@/static/images/01/14/01-672-01_f1_edit.webp";
+import Detail8in14 from "@/static/images/01/14/01-872-01_f1_edit.webp";
+import Detail9in14 from "@/static/images/01/14/01-926-01_f1_edit.webp";
+import Detail1in15 from "@/static/images/01/15/Niziu SN cover.webp";
+import Detail2in15 from "@/static/images/01/15/Niziu SN_1.webp";
+import Detail3in15 from "@/static/images/01/15/Niziu SN_3.webp";
+import Detail4in15 from "@/static/images/01/15/Niziu SN_4.webp";
+import Detail5in15 from "@/static/images/01/15/Niziu SN_8.webp";
+import Detail6in15 from "@/static/images/01/15/Niziu SN_9.webp";
+import Detail7in15 from "@/static/images/01/15/Niziu SN_11.webp";
+import Detail8in15 from "@/static/images/01/15/Niziu SN_12.webp";
+import Detail9in15 from "@/static/images/01/15/Niziu SN_15.webp";
+import Detail10in15 from "@/static/images/01/15/Niziu SN_16.webp";
+import Detail11in15 from "@/static/images/01/15/Niziu SN_17.webp";
+import Detail12in15 from "@/static/images/01/15/Niziu SN_19.webp";
+import Detail13in15 from "@/static/images/01/15/Niziu SN_20.webp";
+import Detail14in15 from "@/static/images/01/15/Niziu SN_21.webp";
+import Detail15in15 from "@/static/images/01/15/Niziu SN_22.webp";
+import Detail16in15 from "@/static/images/01/15/Niziu SN_25.webp";
+import Detail17in15 from "@/static/images/01/15/Niziu SN_26.webp";
+import Detail18in15 from "@/static/images/01/15/Niziu SN_27.webp";
+import Detail19in15 from "@/static/images/01/15/Niziu SN_28.webp";
+import Detail20in15 from "@/static/images/01/15/Niziu SN_29.webp";
 import { DetailImageMap } from "@/interfaces";
 
 export const DETAIL_IMAGE_MAP: DetailImageMap = {
@@ -207,6 +249,60 @@ export const DETAIL_IMAGE_MAP: DetailImageMap = {
       { src: Detail13in11 },
       { src: Detail14in11 },
       { src: Detail15in11 },
+    ],
+  },
+  "12": {
+    imageList: [{ src: Detail1in12 }, { src: Detail2in12 }],
+  },
+  "13": {
+    imageList: [
+      { src: Detail12in13 },
+      { src: Detail1in13 },
+      { src: Detail2in13 },
+      { src: Detail3in13 },
+      { src: Detail4in13 },
+      { src: Detail5in13 },
+      { src: Detail6in13 },
+      { src: Detail7in13 },
+      { src: Detail8in13 },
+      { src: Detail9in13 },
+      { src: Detail10in13 },
+      { src: Detail11in13 },
+    ],
+  },
+  "14": {
+    imageList: [
+      { src: Detail7in14 },
+      { src: Detail2in14 },
+      { src: Detail3in14 },
+      { src: Detail4in14 },
+      { src: Detail5in14 },
+      { src: Detail6in14 },
+      { src: Detail8in14 },
+      { src: Detail9in14 },
+    ],
+  },
+  "15": {
+    imageList: [
+      { src: Detail2in15 },
+      { src: Detail3in15 },
+      { src: Detail4in15 },
+      { src: Detail5in15 },
+      { src: Detail6in15 },
+      { src: Detail7in15 },
+      { src: Detail8in15 },
+      { src: Detail9in15 },
+      { src: Detail10in15 },
+      { src: Detail11in15 },
+      { src: Detail12in15 },
+      { src: Detail13in15 },
+      { src: Detail14in15 },
+      { src: Detail15in15 },
+      { src: Detail16in15 },
+      { src: Detail17in15 },
+      { src: Detail18in15 },
+      { src: Detail19in15 },
+      { src: Detail20in15 },
     ],
   },
 };

@@ -10,6 +10,10 @@ import Cover9 from "@/static/images/01/9/IMG_7066-cover.webp";
 import Cover10 from "@/static/images/01/10/17-cover.webp";
 import Cover11 from "@/static/images/01/11/C-53-1-cover.webp";
 import Cover5 from "@/static/images/01/5/19-cover.webp";
+import Cover12 from "@/static/images/01/12/01-224-01edit crop cover.webp";
+import Cover13 from "@/static/images/01/13/01-952-02 cover.webp";
+import Cover14 from "@/static/images/01/14/01-672-01_f1 cover_edit.webp";
+import Cover15 from "@/static/images/01/15/Niziu SN cover.webp";
 import { CoverImage } from "@/interfaces";
 export const COVER_IMAGE_LIST: CoverImage[] = [
   {
@@ -66,5 +70,25 @@ export const COVER_IMAGE_LIST: CoverImage[] = [
     src: Cover11,
     hiddenSrc: HiddenCover1,
     id: "11",
+  },
+  {
+    src: Cover12,
+    hiddenSrc: HiddenCover1,
+    id: "12",
+  },
+  {
+    src: Cover13,
+    hiddenSrc: HiddenCover1,
+    id: "13",
+  },
+  {
+    src: Cover14,
+    hiddenSrc: HiddenCover1,
+    id: "14",
+  },
+  {
+    src: Cover15,
+    hiddenSrc: HiddenCover1,
+    id: "15",
   },
 ];
