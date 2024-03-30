@@ -33,7 +33,7 @@ export default function Header() {
             className={classNames({
               underline:
                 pathname === PAGE_URL.MAIN ||
-                pathname === "/evbt/" ||
+                pathname === "/studio/" ||
                 pathname === "/" ||
                 isSelected(PAGE_URL.FIRST.LIST),
             })}

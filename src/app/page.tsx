@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { COVER_IMAGE_LIST } from "@/app/(non-authenticated)/01/contents/cover-image-list";
+import { COVER_IMAGE_LIST } from "@/app/contents/cover-image-list";
 import { PAGE_URL } from "@/constants/url";
 import classNames from "classnames";
 
@@ -12,7 +12,7 @@ export default function Home() {
           return (
             <li key={index} className="w-full mb-4 lg:mb-0">
               <Link
-                href={PAGE_URL.SECOND.DETAIL(image.id)}
+                href={PAGE_URL.FIRST.DETAIL(image.id)}
                 className={classNames({
                   "pointer-events-none": image.disabled,
                 })}

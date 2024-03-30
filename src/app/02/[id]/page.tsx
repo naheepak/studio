@@ -1,5 +1,5 @@
-import { DETAIL_IMAGE_MAP } from "@/app/(non-authenticated)/00/contents/detail-image-map";
 import Image from "next/image";
+import { DETAIL_IMAGE_MAP } from "@/app/02/contents/detail-image-map";
 
 type Params = {
   [key: string]: string | number | string[] | undefined;
@@ -26,7 +26,7 @@ export default function Detail({ params }: { params: Params }) {
   return (
     <main className="flex md:min-h-screen w-screen flex-col items-center">
       <ul
-        className={"grid gap-3.5 pb-5 w-full md:w-1/2 grid-cols-1 px-6 md:px-8"}
+        className={"grid gap-3.5 pb-5 w-full md:w-1/2 grid-cols-2 px-6 md:px-8"}
       >
         {item.imageList.map((image, index) => {
           return (
@@ -37,7 +37,7 @@ export default function Detail({ params }: { params: Params }) {
             >
               <Image
                 src={image.src}
-                alt={`cover-${index}`}
+                alt={`detail-image-${index}`}
                 style={{ position: "relative" }}
                 width={0}
                 height={0}
