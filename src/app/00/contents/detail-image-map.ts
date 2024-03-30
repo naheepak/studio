@@ -73,6 +73,11 @@ import Detail8in8 from "@/static/images/00/8/01-082.webp";
 import Detail9in8 from "@/static/images/00/8/01-406.webp";
 import Detail10in8 from "@/static/images/00/8/01-443.webp";
 import Detail11in8 from "@/static/images/00/8/24-cover.webp";
+import Detail1in9 from "@/static/images/00/9/min-1.webp";
+import Detail2in9 from "@/static/images/00/9/min-2.webp";
+import Detail3in9 from "@/static/images/00/9/min-3.webp";
+import Detail4in9 from "@/static/images/00/9/min-4.webp";
+import Detail5in9 from "@/static/images/00/9/min-cover.webp";
 import { DetailImageMap } from "../../../interfaces";
 
 export const DETAIL_IMAGE_MAP: DetailImageMap = {
@@ -104,6 +109,9 @@ export const DETAIL_IMAGE_MAP: DetailImageMap = {
         src: Detail8in2,
       },
       {
+        src: Detail7in2,
+      },
+      {
         src: Detail1in2,
       },
       {
@@ -120,9 +128,6 @@ export const DETAIL_IMAGE_MAP: DetailImageMap = {
       },
       {
         src: Detail6in2,
-      },
-      {
-        src: Detail7in2,
       },
       {
         src: Detail9in2,
@@ -150,6 +155,9 @@ export const DETAIL_IMAGE_MAP: DetailImageMap = {
         src: Detail9in3,
       },
       {
+        src: Detail7in3,
+      },
+      {
         src: Detail1in3,
       },
       {
@@ -168,9 +176,6 @@ export const DETAIL_IMAGE_MAP: DetailImageMap = {
         src: Detail6in3,
       },
       {
-        src: Detail7in3,
-      },
-      {
         src: Detail8in3,
       },
       {
@@ -184,6 +189,9 @@ export const DETAIL_IMAGE_MAP: DetailImageMap = {
         src: Detail8in4,
       },
       {
+        src: Detail5in4,
+      },
+      {
         src: Detail1in4,
       },
       {
@@ -194,9 +202,6 @@ export const DETAIL_IMAGE_MAP: DetailImageMap = {
       },
       {
         src: Detail4in4,
-      },
-      {
-        src: Detail5in4,
       },
       {
         src: Detail6in4,
@@ -212,13 +217,13 @@ export const DETAIL_IMAGE_MAP: DetailImageMap = {
         src: Detail7in5,
       },
       {
+        src: Detail3in5,
+      },
+      {
         src: Detail1in5,
       },
       {
         src: Detail2in5,
-      },
-      {
-        src: Detail3in5,
       },
       {
         src: Detail4in5,
@@ -240,6 +245,15 @@ export const DETAIL_IMAGE_MAP: DetailImageMap = {
         src: Detail3in6,
       },
       {
+        src: Detail7in6,
+      },
+      {
+        src: Detail6in6,
+      },
+      {
+        src: Detail5in6,
+      },
+      {
         src: Detail4in6,
       },
       {
@@ -247,15 +261,6 @@ export const DETAIL_IMAGE_MAP: DetailImageMap = {
       },
       {
         src: Detail2in6,
-      },
-      {
-        src: Detail5in6,
-      },
-      {
-        src: Detail6in6,
-      },
-      {
-        src: Detail7in6,
       },
       {
         src: Detail8in6,
@@ -266,6 +271,9 @@ export const DETAIL_IMAGE_MAP: DetailImageMap = {
     imageList: [
       {
         src: DetailCover7,
+      },
+      {
+        src: Detail8in7,
       },
       {
         src: Detail1in7,
@@ -287,9 +295,6 @@ export const DETAIL_IMAGE_MAP: DetailImageMap = {
       },
       {
         src: Detail7in7,
-      },
-      {
-        src: Detail8in7,
       },
       {
         src: Detail9in7,
@@ -330,6 +335,25 @@ export const DETAIL_IMAGE_MAP: DetailImageMap = {
       },
       {
         src: Detail10in8,
+      },
+    ],
+  },
+  "9": {
+    imageList: [
+      {
+        src: Detail5in9,
+      },
+      {
+        src: Detail1in9,
+      },
+      {
+        src: Detail2in9,
+      },
+      {
+        src: Detail3in9,
+      },
+      {
+        src: Detail4in9,
       },
     ],
   },

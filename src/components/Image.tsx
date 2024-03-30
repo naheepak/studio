@@ -4,11 +4,17 @@ import NextImage from "next/image";
 import classNames from "classnames";
 
 export default function Image(props: ImageProps) {
-  const { className, placeholder = "blur", ...rest } = props;
+  const { className, placeholder = "blur", style, ...rest } = props;
   return (
     <NextImage
       {...rest}
-      className={classNames(className, "select-none")}
+      style={{
+        ...style,
+        touchAction: "none",
+        msTouchAction: "none",
+        msTouchSelect: "none",
+      }}
+      className={classNames(className, "select-none touch-none")}
       placeholder={placeholder}
       onContextMenu={(event) => event.preventDefault()}
       onTouchStart={(event) => event.preventDefault()}

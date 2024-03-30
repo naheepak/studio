@@ -3,7 +3,7 @@ import { StaticImageData } from "next/image";
 export type CoverImage = {
   disabled?: boolean;
   src: StaticImageData;
-  hiddenSrc: StaticImageData;
+  hiddenSrc?: StaticImageData;
   id: string;
 };
 

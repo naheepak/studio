@@ -24,8 +24,23 @@ export default function CoverImageList(props: CoverImageListProps) {
                   src={image.src}
                   alt={`cover-${index}`}
                   fill
-                  className={"object-cover z-10"}
+                  className={classNames(
+                    "object-cover top-0 left-0 transition-opacity duration-500",
+                    {
+                      "hover:opacity-0": image.hiddenSrc,
+                    },
+                  )}
                 />
+                {image.hiddenSrc && (
+                  <Image
+                    src={image.hiddenSrc}
+                    alt={`hidden-cover-${index}`}
+                    fill
+                    className={
+                      "object-cover top-0 left-0 opacity-0 transition-opacity duration-500 hover:opacity-100"
+                    }
+                  />
+                )}
               </div>
             </Link>
           </li>

@@ -128,9 +128,9 @@ export const DETAIL_IMAGE_MAP: DetailImageMap = {
   "1": {
     imageList: [
       { src: Detail1in1 },
+      { src: Detail4in1 },
       { src: Detail2in1 },
       { src: Detail3in1 },
-      { src: Detail4in1 },
       { src: Detail5in1 },
       { src: Detail6in1 },
       { src: Detail7in1 },
@@ -139,19 +139,19 @@ export const DETAIL_IMAGE_MAP: DetailImageMap = {
   "2": {
     imageList: [
       { src: Detail2in2 },
+      { src: Detail3in2 },
       { src: Detail5in2 },
       { src: Detail1in2 },
-      { src: Detail3in2 },
       { src: Detail4in2 },
     ],
   },
   "3": {
     imageList: [
       { src: Detail2in3 },
+      { src: Detail5in3 },
       { src: Detail1in3 },
       { src: Detail3in3 },
       { src: Detail4in3 },
-      { src: Detail5in3 },
       { src: Detail6in3 },
       { src: Detail7in3 },
     ],
@@ -159,21 +159,21 @@ export const DETAIL_IMAGE_MAP: DetailImageMap = {
   "4": {
     imageList: [
       { src: Detail8in4 },
+      { src: Detail7in4 },
       { src: Detail1in4 },
       { src: Detail2in4 },
       { src: Detail3in4 },
       { src: Detail4in4 },
       { src: Detail5in4 },
       { src: Detail6in4 },
-      { src: Detail7in4 },
     ],
   },
   "5": {
     imageList: [
       { src: Detail7in5 },
+      { src: Detail3in5 },
       { src: Detail1in5 },
       { src: Detail2in5 },
-      { src: Detail3in5 },
       { src: Detail4in5 },
       { src: Detail6in5 },
     ],
@@ -189,20 +189,20 @@ export const DETAIL_IMAGE_MAP: DetailImageMap = {
   "7": {
     imageList: [
       { src: Detail8in7 },
+      { src: Detail7in7 },
       { src: Detail1in7 },
       { src: Detail3in7 },
       { src: Detail4in7 },
       { src: Detail5in7 },
       { src: Detail6in7 },
-      { src: Detail7in7 },
     ],
   },
   "8": {
     imageList: [
       { src: DetailCover8 },
+      { src: Detail3in8 },
       { src: Detail1in8 },
       { src: Detail2in8 },
-      { src: Detail3in8 },
       { src: Detail4in8 },
       { src: Detail5in8 },
       { src: Detail6in8 },
@@ -211,9 +211,9 @@ export const DETAIL_IMAGE_MAP: DetailImageMap = {
   "9": {
     imageList: [
       { src: Detail10in9 },
+      { src: Detail4in9 },
       { src: Detail2in9 },
       { src: Detail3in9 },
-      { src: Detail4in9 },
       { src: Detail5in9 },
       { src: Detail6in9 },
       { src: Detail7in9 },
@@ -257,6 +257,7 @@ export const DETAIL_IMAGE_MAP: DetailImageMap = {
   "13": {
     imageList: [
       { src: Detail12in13 },
+      { src: Detail11in13 },
       { src: Detail1in13 },
       { src: Detail2in13 },
       { src: Detail3in13 },
@@ -267,17 +268,16 @@ export const DETAIL_IMAGE_MAP: DetailImageMap = {
       { src: Detail8in13 },
       { src: Detail9in13 },
       { src: Detail10in13 },
-      { src: Detail11in13 },
     ],
   },
   "14": {
     imageList: [
       { src: Detail7in14 },
+      { src: Detail6in14 },
       { src: Detail2in14 },
       { src: Detail3in14 },
       { src: Detail4in14 },
       { src: Detail5in14 },
-      { src: Detail6in14 },
       { src: Detail8in14 },
       { src: Detail9in14 },
     ],
@@ -285,6 +285,7 @@ export const DETAIL_IMAGE_MAP: DetailImageMap = {
   "15": {
     imageList: [
       { src: Detail2in15 },
+      { src: Detail19in15 },
       { src: Detail3in15 },
       { src: Detail4in15 },
       { src: Detail5in15 },
@@ -301,7 +302,6 @@ export const DETAIL_IMAGE_MAP: DetailImageMap = {
       { src: Detail16in15 },
       { src: Detail17in15 },
       { src: Detail18in15 },
-      { src: Detail19in15 },
       { src: Detail20in15 },
     ],
   },
