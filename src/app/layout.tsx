@@ -1,12 +1,7 @@
 import type { Metadata } from "next";
-import { Manrope } from "next/font/google";
-import "./globals.css";
-import Header from "@/components/Header";
 
-const manrope = Manrope({
-  subsets: ["latin"],
-  style: "normal",
-});
+import "./globals.css";
+import Layout from "@/components/Layout";
 
 export const metadata: Metadata = {
   title: "Nahee Pak",
@@ -20,13 +15,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="ko">
-      <body className={manrope.className}>
-        <Header />
-        {children}
-        <footer className={"text-sm h-96 flex justify-center items-center"}>
-          All rights reserved. ©2024
-        </footer>
-      </body>
+      <Layout>{children}</Layout>
     </html>
   );
 }

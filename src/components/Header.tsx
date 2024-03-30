@@ -4,6 +4,7 @@ import { PAGE_URL } from "@/constants/url";
 import { Archivo_Black } from "next/font/google";
 import { usePathname } from "next/navigation";
 import classNames from "classnames";
+import { HeaderProps } from "@/interfaces/components/header";
 
 const archivoBlack = Archivo_Black({
   subsets: ["latin"],
@@ -11,7 +12,8 @@ const archivoBlack = Archivo_Black({
   weight: "400",
 });
 
-export default function Header() {
+export default function Header(props: HeaderProps) {
+  const { open, handleOpen } = props;
   const pathname = usePathname();
 
   const isSelected = (url: string) => {
@@ -23,9 +25,8 @@ export default function Header() {
       className={`${archivoBlack.className} relative min-h-20 tracking-tighter px-6 md:px-8`}
     >
       <ul
-        style={{ transform: "translateY(-50%)" }}
         className={
-          "absolute left-6 md:left-8 top-1/2 flex text-md md:text-lg gap-x-2"
+          "absolute left-6 md:left-8 top-1/2 text-md md:text-lg gap-x-2 hidden md:flex -translate-y-1/2"
         }
       >
         <li>
@@ -65,11 +66,28 @@ export default function Header() {
       </ul>
       <Link
         href={PAGE_URL.MAIN}
-        style={{ transform: "translate(-50%, -50%)" }}
-        className={"absolute text-xl md:text-2xl left-1/2 top-1/2"}
+        className={
+          "absolute text-xl md:text-2xl left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2"
+        }
       >
         NAHEE PAK
       </Link>
+      <button
+        className="w-14 h-14 absolute focus:outline-none md:hidden top-1/2 -translate-y-1/2 left-2.5 z-50"
+        onClick={() => handleOpen(!open)}
+      >
+        <div className="block w-5 absolute left-6 top-1/2 transform -translate-x-1/2 -translate-y-1/2">
+          <span
+            className={`block absolute h-0.5 w-7 text-black bg-current transform transition duration-500 ease-in-out ${open ? "rotate-45" : "-translate-y-1.5"}`}
+          ></span>
+          <span
+            className={`block absolute h-0.5 w-5 text-black bg-current transform transition duration-500 ease-in-out ${open ? "opacity-0" : ""}`}
+          ></span>
+          <span
+            className={`block absolute h-0.5 w-7 text-black bg-current transform transition duration-500 ease-in-out ${open ? "-rotate-45" : "translate-y-1.5"}`}
+          ></span>
+        </div>
+      </button>
     </header>
   );
 }
