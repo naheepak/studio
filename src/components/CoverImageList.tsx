@@ -1,7 +1,7 @@
 import { CoverImageListProps } from "@/interfaces";
 import Link from "next/link";
 import classNames from "classnames";
-import Image from "next/image";
+import Image from "@/components/Image";
 
 export default function CoverImageList(props: CoverImageListProps) {
   const { coverImageList, detailLink } = props;
@@ -25,7 +25,6 @@ export default function CoverImageList(props: CoverImageListProps) {
                   alt={`cover-${index}`}
                   fill
                   className={"object-cover z-10"}
-                  placeholder={"blur"}
                 />
               </div>
             </Link>

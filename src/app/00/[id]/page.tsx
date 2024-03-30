@@ -1,5 +1,5 @@
 import { DETAIL_IMAGE_MAP } from "@/app/00/contents/detail-image-map";
-import Image from "next/image";
+import Image from "@/components/Image";
 
 type Params = {
   [key: string]: string | number | string[] | undefined;
@@ -42,7 +42,6 @@ export default function Detail({ params }: { params: Params }) {
                 width={0}
                 height={0}
                 sizes={"100vw"}
-                placeholder={"blur"}
                 className={"object-contain md:object-cover w-full h-full"}
               />
             </li>
