@@ -27,7 +27,7 @@ export default function CoverImageList(props: CoverImageListProps) {
                   className={classNames(
                     "object-cover top-0 left-0 transition-opacity duration-500",
                     {
-                      "hover:opacity-0": image.hiddenSrc,
+                      "md:hover:opacity-0": image.hiddenSrc,
                     },
                   )}
                 />
@@ -37,7 +37,7 @@ export default function CoverImageList(props: CoverImageListProps) {
                     alt={`hidden-cover-${index}`}
                     fill
                     className={
-                      "object-cover top-0 left-0 opacity-0 transition-opacity duration-500 hover:opacity-100"
+                      "object-cover top-0 left-0 opacity-0 transition-opacity duration-500 md:hover:opacity-100"
                     }
                   />
                 )}
