@@ -59,6 +59,7 @@ export default function Layout({
                   pathname === "/" ||
                   isSelected(PAGE_URL.FIRST.LIST),
               })}
+              onClick={() => setOpen(false)}
               href={PAGE_URL.MAIN}
             >
               00
@@ -69,6 +70,7 @@ export default function Layout({
               className={classNames({
                 underline: isSelected(PAGE_URL.SECOND.LIST),
               })}
+              onClick={() => setOpen(false)}
               href={PAGE_URL.SECOND.LIST}
             >
               01
@@ -79,6 +81,7 @@ export default function Layout({
               className={classNames({
                 underline: isSelected(PAGE_URL.THIRD.LIST),
               })}
+              onClick={() => setOpen(false)}
               href={PAGE_URL.THIRD.LIST}
             >
               02

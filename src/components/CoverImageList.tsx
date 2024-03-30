@@ -4,10 +4,18 @@ import classNames from "classnames";
 import Image from "@/components/Image";
 
 export default function CoverImageList(props: CoverImageListProps) {
-  const { coverImageList, detailLink } = props;
+  const { coverImageList, detailLink, colNum = 1 } = props;
 
   return (
-    <ul className="grid grid-cols-1 md:grid-cols-4 gap-4 px-6 md:px-8 w-full">
+    <ul
+      className={classNames(
+        "grid grid-cols-1 md:grid-cols-4 gap-4 px-6 md:px-8 w-full",
+        {
+          "grid-cols-1": colNum === 1,
+          "grid-cols-2": colNum === 2,
+        },
+      )}
+    >
       {coverImageList.map((image, index) => {
         return (
           <li key={index} className="w-full mb-4 lg:mb-0">
