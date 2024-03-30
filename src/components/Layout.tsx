@@ -89,7 +89,7 @@ export default function Layout({
       <Header open={open} handleOpen={handleOpen} />
       {children}
       <footer className={"text-sm h-96 flex justify-center items-center"}>
-        All rights reserved. ©2024
+        naheepak.studio@gmail.com
       </footer>
     </body>
   );
