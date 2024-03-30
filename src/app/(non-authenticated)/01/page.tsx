@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { COVER_IMAGE_LIST } from "@/app/01/contents/cover-image-list";
+import { COVER_IMAGE_LIST } from "@/app/(non-authenticated)/01/contents/cover-image-list";
 import { PAGE_URL } from "@/constants/url";
 import classNames from "classnames";
 

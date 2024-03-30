@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { DETAIL_IMAGE_MAP } from "@/app/01/contents/detail-image-map";
+import { DETAIL_IMAGE_MAP } from "@/app/(non-authenticated)/01/contents/detail-image-map";
 
 type Params = {
   [key: string]: string | number | string[] | undefined;
