@@ -13,6 +13,8 @@ export default function Image(props: ImageProps) {
         touchAction: "none",
         msTouchAction: "none",
         msTouchSelect: "none",
+        userSelect: "none", // 사용자 선택 비활성화
+        WebkitTouchCallout: "none", // iOS에서 터치 길게 누름 메뉴 비활성화
       }}
       className={classNames(className, "select-none touch-none")}
       placeholder={placeholder}
