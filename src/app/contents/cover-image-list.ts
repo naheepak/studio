@@ -8,7 +8,7 @@ import Cover6 from "@/static/images/00/6/02-602-01-cover.webp";
 import Cover7 from "@/static/images/00/7/01-904-01-cover.webp";
 import Cover8 from "@/static/images/00/8/24-cover.webp";
 import Cover9 from "@/static/images/00/9/min.webp";
-import type { CoverImage } from "@/interfaces";
+import type { CoverImage } from "../../interfaces";
 
 export const COVER_IMAGE_LIST: CoverImage[] = [
   {

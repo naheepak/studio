@@ -1,4 +1,4 @@
-import { DetailImageMap } from "@/interfaces";
+import { DetailImageMap } from "../../../interfaces";
 import Detail1in1 from "@/static/images/02/1/IMG_6579.webp";
 import Detail2in1 from "@/static/images/02/1/IMG_6575.webp";
 import Detail3in1 from "@/static/images/02/1/IMG_6576.webp";

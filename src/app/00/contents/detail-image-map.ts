@@ -73,7 +73,7 @@ import Detail8in8 from "@/static/images/00/8/01-082.webp";
 import Detail9in8 from "@/static/images/00/8/01-406.webp";
 import Detail10in8 from "@/static/images/00/8/01-443.webp";
 import Detail11in8 from "@/static/images/00/8/24-cover.webp";
-import { DetailImageMap } from "@/interfaces";
+import { DetailImageMap } from "../../../interfaces";
 
 export const DETAIL_IMAGE_MAP: DetailImageMap = {
   "1": {

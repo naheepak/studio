@@ -14,7 +14,7 @@ import Cover12 from "@/static/images/01/12/01-224-01edit crop cover.webp";
 import Cover13 from "@/static/images/01/13/01-952-02 cover.webp";
 import Cover14 from "@/static/images/01/14/01-672-01_f1 cover_edit.webp";
 import Cover15 from "@/static/images/01/15/Niziu SN cover.webp";
-import { CoverImage } from "@/interfaces";
+import { CoverImage } from "../../../interfaces";
 export const COVER_IMAGE_LIST: CoverImage[] = [
   {
     src: Cover1,

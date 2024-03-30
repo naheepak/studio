@@ -122,7 +122,7 @@ import Detail17in15 from "@/static/images/01/15/Niziu SN_26.webp";
 import Detail18in15 from "@/static/images/01/15/Niziu SN_27.webp";
 import Detail19in15 from "@/static/images/01/15/Niziu SN_28.webp";
 import Detail20in15 from "@/static/images/01/15/Niziu SN_29.webp";
-import { DetailImageMap } from "@/interfaces";
+import { DetailImageMap } from "../../../interfaces";
 
 export const DETAIL_IMAGE_MAP: DetailImageMap = {
   "1": {
