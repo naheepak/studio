@@ -1,8 +1,5 @@
-import Image from "next/image";
-import Link from "next/link";
 import { COVER_IMAGE_LIST } from "@/app/contents/cover-image-list";
 import { PAGE_URL } from "@/constants/url";
-import classNames from "classnames";
 import CoverImageList from "@/components/CoverImageList";
 
 export default function Home() {
