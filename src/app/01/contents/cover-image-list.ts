@@ -4,7 +4,7 @@ import Cover6 from "@/static/images/01/6/A-30-2-03-cover.webp";
 import Cover7 from "@/static/images/01/7/12-cover.webp";
 import Cover4 from "@/static/images/01/4/01-268-1-cover.webp";
 import Cover3 from "@/static/images/01/3/14-cover.webp";
-import Cover8 from "@/static/images/01/8/01-021-cover.webp";
+
 import Cover9 from "@/static/images/01/9/IMG_7066-cover.webp";
 import Cover10 from "@/static/images/01/10/17-cover.webp";
 import Cover11 from "@/static/images/01/11/C-53-1-cover.webp";
@@ -62,11 +62,6 @@ export const COVER_IMAGE_LIST: CoverImage[] = [
     src: Cover7,
     hiddenSrc: DETAIL_IMAGE_MAP["7"].imageList[1].src,
     id: "7",
-  },
-  {
-    src: Cover8,
-    hiddenSrc: DETAIL_IMAGE_MAP["8"].imageList[1].src,
-    id: "8",
   },
   {
     src: Cover9,

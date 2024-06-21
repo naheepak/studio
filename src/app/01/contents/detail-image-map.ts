@@ -42,13 +42,6 @@ import Detail5in7 from "@/static/images/01/7/5.webp";
 import Detail6in7 from "@/static/images/01/7/01-399-01.webp";
 import Detail7in7 from "@/static/images/01/7/01-1117-01.webp";
 import Detail8in7 from "@/static/images/01/7/12.webp";
-import Detail1in8 from "@/static/images/01/8/01-046.webp";
-import Detail2in8 from "@/static/images/01/8/02-055.webp";
-import Detail3in8 from "@/static/images/01/8/02-077.webp";
-import Detail4in8 from "@/static/images/01/8/_01_4965.webp";
-import Detail5in8 from "@/static/images/01/8/_01_5038.webp";
-import Detail6in8 from "@/static/images/01/8/_01_5102.webp";
-import DetailCover8 from "@/static/images/01/8/01-021-cover.webp";
 import Detail1in9 from "@/static/images/01/9/1.webp";
 import Detail2in9 from "@/static/images/01/9/2.webp";
 import Detail3in9 from "@/static/images/01/9/3.webp";
@@ -222,17 +215,6 @@ export const DETAIL_IMAGE_MAP: DetailImageMap = {
       { src: Detail4in7 },
       { src: Detail5in7 },
       { src: Detail6in7 },
-    ],
-  },
-  "8": {
-    imageList: [
-      { src: DetailCover8 },
-      { src: Detail3in8 },
-      { src: Detail1in8 },
-      { src: Detail2in8 },
-      { src: Detail4in8 },
-      { src: Detail5in8 },
-      { src: Detail6in8 },
     ],
   },
   "9": {

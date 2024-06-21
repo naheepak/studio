@@ -7,6 +7,8 @@ import Cover6 from "@/static/images/00/6/02-602-01-cover.webp";
 import Cover7 from "@/static/images/00/7/01-904-01-cover.webp";
 import Cover8 from "@/static/images/00/8/24-cover.webp";
 import Cover9 from "@/static/images/00/9/min-cover.webp";
+import Cover10 from "@/static/images/00/10/cover.webp";
+import Cover11 from "@/static/images/00/11/01-021-cover.webp";
 import type { CoverImage } from "../../interfaces";
 import { DETAIL_IMAGE_MAP } from "@/app/00/contents/detail-image-map";
 
@@ -55,5 +57,15 @@ export const COVER_IMAGE_LIST: CoverImage[] = [
     src: Cover9,
     hiddenSrc: DETAIL_IMAGE_MAP["9"].imageList[1].src,
     id: "9",
+  },
+  {
+    src: Cover11,
+    hiddenSrc: DETAIL_IMAGE_MAP["11"].imageList[1].src,
+    id: "11",
+  },
+  {
+    src: Cover10,
+    hiddenSrc: DETAIL_IMAGE_MAP["10"].imageList[1].src,
+    id: "10",
   },
 ];

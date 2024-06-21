@@ -79,6 +79,16 @@ import Detail2in9 from "@/static/images/00/9/min-2.webp";
 import Detail3in9 from "@/static/images/00/9/min-3.webp";
 import Detail4in9 from "@/static/images/00/9/min-4.webp";
 import Detail5in9 from "@/static/images/00/9/min-cover.webp";
+import Detail1in10 from "@/static/images/00/10/cover.webp";
+import Detail2in10 from "@/static/images/00/10/1.webp";
+import Detail3in10 from "@/static/images/00/10/2.webp";
+import Detail1in11 from "@/static/images/00/11/01-046.webp";
+import Detail2in11 from "@/static/images/00/11/02-055.webp";
+import Detail3in11 from "@/static/images/00/11/02-077.webp";
+import Detail4in11 from "@/static/images/00/11/_01_4965.webp";
+import Detail5in11 from "@/static/images/00/11/_01_5038.webp";
+import Detail6in11 from "@/static/images/00/11/_01_5102.webp";
+import DetailCover11 from "@/static/images/00/11/01-021-cover.webp";
 import { DetailImageMap } from "../../../interfaces";
 
 export const DETAIL_IMAGE_MAP: DetailImageMap = {
@@ -356,6 +366,44 @@ export const DETAIL_IMAGE_MAP: DetailImageMap = {
       },
       {
         src: Detail4in9,
+      },
+    ],
+  },
+  "11": {
+    imageList: [
+      {
+        src: DetailCover11,
+      },
+      {
+        src: Detail6in11,
+      },
+      {
+        src: Detail1in11,
+      },
+      {
+        src: Detail2in11,
+      },
+      {
+        src: Detail3in11,
+      },
+      {
+        src: Detail4in11,
+      },
+      {
+        src: Detail5in11,
+      },
+    ],
+  },
+  "10": {
+    imageList: [
+      {
+        src: Detail1in10,
+      },
+      {
+        src: Detail2in10,
+      },
+      {
+        src: Detail3in10,
       },
     ],
   },
