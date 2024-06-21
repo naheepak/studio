@@ -102,7 +102,6 @@ import Detail6in14 from "@/static/images/01/14/01-610-01_f1_edit.webp";
 import Detail7in14 from "@/static/images/01/14/01-672-01_f1_edit.webp";
 import Detail8in14 from "@/static/images/01/14/01-872-01_f1_edit.webp";
 import Detail9in14 from "@/static/images/01/14/01-926-01_f1_edit.webp";
-import Detail1in15 from "@/static/images/01/15/Niziu SN cover.webp";
 import Detail2in15 from "@/static/images/01/15/Niziu SN_1.webp";
 import Detail3in15 from "@/static/images/01/15/Niziu SN_3.webp";
 import Detail4in15 from "@/static/images/01/15/Niziu SN_4.webp";
@@ -122,6 +121,34 @@ import Detail17in15 from "@/static/images/01/15/Niziu SN_26.webp";
 import Detail18in15 from "@/static/images/01/15/Niziu SN_27.webp";
 import Detail19in15 from "@/static/images/01/15/Niziu SN_28.webp";
 import Detail20in15 from "@/static/images/01/15/Niziu SN_29.webp";
+import Detail2in16 from "@/static/images/01/16/46-47 001.webp";
+import Detail3in16 from "@/static/images/01/16/46-47 002.webp";
+import Detail4in16 from "@/static/images/01/16/46-48 003.webp";
+import Detail5in16 from "@/static/images/01/16/46-48 004.webp";
+import Detail6in16 from "@/static/images/01/16/46-48 005.webp";
+import Detail7in16 from "@/static/images/01/16/46-48 006.webp";
+import Detail8in16 from "@/static/images/01/16/46-49 007.webp";
+import Detail9in16 from "@/static/images/01/16/46-49 008.webp";
+import Detail10in16 from "@/static/images/01/16/46-49 009.webp";
+import Detail11in16 from "@/static/images/01/16/46-50 010.webp";
+import Detail12in16 from "@/static/images/01/16/46-50 011.webp";
+import Detail13in16 from "@/static/images/01/16/46-50 012.webp";
+import Detail14in16 from "@/static/images/01/16/46-51 013.webp";
+import Detail15in16 from "@/static/images/01/16/46-51 014.webp";
+import Detail2in17 from "@/static/images/01/17/49-43 001.webp";
+import Detail3in17 from "@/static/images/01/17/49-43 002.webp";
+import Detail4in17 from "@/static/images/01/17/49-44 003.webp";
+import Detail5in17 from "@/static/images/01/17/49-45 004.webp";
+import Detail6in17 from "@/static/images/01/17/49-45 005.webp";
+import Detail7in17 from "@/static/images/01/17/49-46 006.webp";
+import Detail8in17 from "@/static/images/01/17/49-48 007.webp";
+import Detail9in17 from "@/static/images/01/17/49-49 008.webp";
+import Detail10in17 from "@/static/images/01/17/49-49 009.webp";
+import Detail11in17 from "@/static/images/01/17/49-51 010.webp";
+import Detail12in17 from "@/static/images/01/17/49-52 011.webp";
+import Detail13in17 from "@/static/images/01/17/49-52 012.webp";
+import Detail14in17 from "@/static/images/01/17/49-53 013.webp";
+import Detail15in17 from "@/static/images/01/17/49-54 014.webp";
 import { DetailImageMap } from "../../../interfaces";
 
 export const DETAIL_IMAGE_MAP: DetailImageMap = {
@@ -303,6 +330,42 @@ export const DETAIL_IMAGE_MAP: DetailImageMap = {
       { src: Detail17in15 },
       { src: Detail18in15 },
       { src: Detail20in15 },
+    ],
+  },
+  "16": {
+    imageList: [
+      { src: Detail6in16 },
+      { src: Detail2in16 },
+      { src: Detail3in16 },
+      { src: Detail4in16 },
+      { src: Detail5in16 },
+      { src: Detail7in16 },
+      { src: Detail8in16 },
+      { src: Detail9in16 },
+      { src: Detail10in16 },
+      { src: Detail11in16 },
+      { src: Detail12in16 },
+      { src: Detail13in16 },
+      { src: Detail14in16 },
+      { src: Detail15in16 },
+    ],
+  },
+  "17": {
+    imageList: [
+      { src: Detail9in17 },
+      { src: Detail2in17 },
+      { src: Detail3in17 },
+      { src: Detail4in17 },
+      { src: Detail5in17 },
+      { src: Detail6in17 },
+      { src: Detail7in17 },
+      { src: Detail8in17 },
+      { src: Detail10in17 },
+      { src: Detail11in17 },
+      { src: Detail12in17 },
+      { src: Detail13in17 },
+      { src: Detail14in17 },
+      { src: Detail15in17 },
     ],
   },
 };

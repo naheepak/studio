@@ -13,6 +13,9 @@ import Detail6in3 from "@/static/images/02/3/IMG_3229.webp";
 import Detail7in3 from "@/static/images/02/3/IMG_3230.webp";
 import Detail8in3 from "@/static/images/02/3/IMG_3231.webp";
 import Detail9in3 from "@/static/images/02/3/IMG_3232.webp";
+import Detail1in5 from "@/static/images/02/5/cover.webp";
+import Detail2in5 from "@/static/images/02/5/1.webp";
+import Detail3in5 from "@/static/images/02/5/2.webp";
 
 export const DETAIL_IMAGE_MAP: DetailImageMap = {
   "1": {
@@ -62,6 +65,19 @@ export const DETAIL_IMAGE_MAP: DetailImageMap = {
       },
       {
         src: Detail9in3,
+      },
+    ],
+  },
+  "5": {
+    imageList: [
+      {
+        src: Detail1in5,
+      },
+      {
+        src: Detail2in5,
+      },
+      {
+        src: Detail3in5,
       },
     ],
   },
