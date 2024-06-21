@@ -4,7 +4,14 @@ import CoverImageList from "@/components/CoverImageList";
 
 export default function Home() {
   return (
-    <main className="flex md:min-h-screen w-screen flex-col items-center">
+    <main
+      style={
+        {
+          "-webkit-touch-callout": "none",
+        } as React.CSSProperties
+      }
+      className="flex md:min-h-screen w-screen flex-col items-center"
+    >
       <CoverImageList
         coverImageList={COVER_IMAGE_LIST}
         detailLink={PAGE_URL.FIRST.DETAIL}
