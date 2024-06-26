@@ -142,6 +142,53 @@ import Detail12in17 from "@/static/images/01/17/49-52 011.webp";
 import Detail13in17 from "@/static/images/01/17/49-52 012.webp";
 import Detail14in17 from "@/static/images/01/17/49-53 013.webp";
 import Detail15in17 from "@/static/images/01/17/49-54 014.webp";
+import Detail1in18 from "@/static/images/01/18/53 001.webp";
+import Detail2in18 from "@/static/images/01/18/53 002.webp";
+import Detail3in18 from "@/static/images/01/18/54 003.webp";
+import Detail4in18 from "@/static/images/01/18/54 004.webp";
+import Detail5in18 from "@/static/images/01/18/54 005.webp";
+import Detail6in18 from "@/static/images/01/18/54 006.webp";
+import Detail7in18 from "@/static/images/01/18/55 007.webp";
+import Detail8in18 from "@/static/images/01/18/55 008.webp";
+import Detail9in18 from "@/static/images/01/18/55 009.webp";
+import Detail10in18 from "@/static/images/01/18/56 010.webp";
+import Detail11in18 from "@/static/images/01/18/56 011.webp";
+import Detail12in18 from "@/static/images/01/18/56 012.webp";
+import Detail1in19 from "@/static/images/01/19/44 001.webp";
+import Detail2in19 from "@/static/images/01/19/45 002.webp";
+import Detail3in19 from "@/static/images/01/19/45 003.webp";
+import Detail4in19 from "@/static/images/01/19/46 004.webp";
+import Detail5in19 from "@/static/images/01/19/46 005.webp";
+import Detail6in19 from "@/static/images/01/19/47 006.webp";
+import Detail7in19 from "@/static/images/01/19/47 007.webp";
+import Detail8in19 from "@/static/images/01/19/48 008.webp";
+import Detail9in19 from "@/static/images/01/19/48 009.webp";
+import Detail10in19 from "@/static/images/01/19/49 010.webp";
+import Detail11in19 from "@/static/images/01/19/49 011.webp";
+import Detail12in19 from "@/static/images/01/19/50 012.webp";
+import Detail13in19 from "@/static/images/01/19/50 013.webp";
+import Detail14in19 from "@/static/images/01/19/51 014.webp";
+import Detail15in19 from "@/static/images/01/19/51 015.webp";
+import Detail16in19 from "@/static/images/01/19/51 016.webp";
+import Detail17in19 from "@/static/images/01/19/52 017.webp";
+import Detail18in19 from "@/static/images/01/19/52 018.webp";
+import Detail19in19 from "@/static/images/01/19/53 019.webp";
+import Detail20in19 from "@/static/images/01/19/53 020.webp";
+import Detail21in19 from "@/static/images/01/19/53 021.webp";
+import Detail22in19 from "@/static/images/01/19/55 022.webp";
+import Detail1in20 from "@/static/images/01/20/32 001.webp";
+import Detail2in20 from "@/static/images/01/20/32 002.webp";
+import Detail3in20 from "@/static/images/01/20/33 003.webp";
+import Detail4in20 from "@/static/images/01/20/33 004.webp";
+import Detail5in20 from "@/static/images/01/20/34 005.webp";
+import Detail6in20 from "@/static/images/01/20/34 006.webp";
+import Detail7in20 from "@/static/images/01/20/34 007.webp";
+import Detail8in20 from "@/static/images/01/20/35 008.webp";
+import Detail9in20 from "@/static/images/01/20/35 009.webp";
+import Detail10in20 from "@/static/images/01/20/36 010.webp";
+import Detail11in20 from "@/static/images/01/20/36 011.webp";
+import Detail12in20 from "@/static/images/01/20/36 012.webp";
+import Detail13in20 from "@/static/images/01/20/37 013.webp";
 import { DetailImageMap } from "../../../interfaces";
 
 export const DETAIL_IMAGE_MAP: DetailImageMap = {
@@ -201,8 +248,8 @@ export const DETAIL_IMAGE_MAP: DetailImageMap = {
   "6": {
     imageList: [
       { src: Detail4in6 },
-      { src: Detail1in6 },
       { src: Detail2in6 },
+      { src: Detail1in6 },
       { src: Detail3in6 },
     ],
   },
@@ -348,6 +395,65 @@ export const DETAIL_IMAGE_MAP: DetailImageMap = {
       { src: Detail13in17 },
       { src: Detail14in17 },
       { src: Detail15in17 },
+    ],
+  },
+  "18": {
+    imageList: [
+      { src: Detail2in18 },
+      { src: Detail1in18 },
+      { src: Detail3in18 },
+      { src: Detail4in18 },
+      { src: Detail5in18 },
+      { src: Detail6in18 },
+      { src: Detail7in18 },
+      { src: Detail8in18 },
+      { src: Detail9in18 },
+      { src: Detail10in18 },
+      { src: Detail11in18 },
+      { src: Detail12in18 },
+    ],
+  },
+  "19": {
+    imageList: [
+      { src: Detail9in19 },
+      { src: Detail1in19 },
+      { src: Detail2in19 },
+      { src: Detail3in19 },
+      { src: Detail4in19 },
+      { src: Detail5in19 },
+      { src: Detail6in19 },
+      { src: Detail7in19 },
+      { src: Detail8in19 },
+      { src: Detail10in19 },
+      { src: Detail11in19 },
+      { src: Detail12in19 },
+      { src: Detail13in19 },
+      { src: Detail14in19 },
+      { src: Detail15in19 },
+      { src: Detail16in19 },
+      { src: Detail17in19 },
+      { src: Detail18in19 },
+      { src: Detail19in19 },
+      { src: Detail20in19 },
+      { src: Detail21in19 },
+      { src: Detail22in19 },
+    ],
+  },
+  "20": {
+    imageList: [
+      { src: Detail7in20 },
+      { src: Detail1in20 },
+      { src: Detail2in20 },
+      { src: Detail3in20 },
+      { src: Detail4in20 },
+      { src: Detail5in20 },
+      { src: Detail6in20 },
+      { src: Detail8in20 },
+      { src: Detail9in20 },
+      { src: Detail10in20 },
+      { src: Detail11in20 },
+      { src: Detail12in20 },
+      { src: Detail13in20 },
     ],
   },
 };

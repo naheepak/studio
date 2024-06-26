@@ -375,6 +375,9 @@ export const DETAIL_IMAGE_MAP: DetailImageMap = {
         src: DetailCover11,
       },
       {
+        src: Detail3in11,
+      },
+      {
         src: Detail6in11,
       },
       {
@@ -383,9 +386,7 @@ export const DETAIL_IMAGE_MAP: DetailImageMap = {
       {
         src: Detail2in11,
       },
-      {
-        src: Detail3in11,
-      },
+
       {
         src: Detail4in11,
       },

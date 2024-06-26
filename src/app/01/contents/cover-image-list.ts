@@ -15,9 +15,17 @@ import Cover14 from "@/static/images/01/14/01-672-01_f1 cover_edit.webp";
 import Cover15 from "@/static/images/01/15/Niziu SN cover.webp";
 import Cover16 from "@/static/images/01/16/cover.webp";
 import Cover17 from "@/static/images/01/17/cover.webp";
+import Cover18 from "@/static/images/01/18/53 002.webp";
+import Cover19 from "@/static/images/01/19/48 009.webp";
+import Cover20 from "@/static/images/01/20/34 007.webp";
 import { CoverImage } from "../../../interfaces";
 import { DETAIL_IMAGE_MAP } from "@/app/01/contents/detail-image-map";
 export const COVER_IMAGE_LIST: CoverImage[] = [
+  {
+    src: Cover19,
+    hiddenSrc: DETAIL_IMAGE_MAP["19"].imageList[1].src,
+    id: "19",
+  },
   {
     src: Cover1,
     hiddenSrc: DETAIL_IMAGE_MAP["1"].imageList[1].src,
@@ -49,6 +57,11 @@ export const COVER_IMAGE_LIST: CoverImage[] = [
     id: "4",
   },
   {
+    src: Cover18,
+    hiddenSrc: DETAIL_IMAGE_MAP["18"].imageList[1].src,
+    id: "18",
+  },
+  {
     src: Cover5,
     hiddenSrc: DETAIL_IMAGE_MAP["5"].imageList[1].src,
     id: "5",
@@ -77,6 +90,11 @@ export const COVER_IMAGE_LIST: CoverImage[] = [
     src: Cover11,
     hiddenSrc: DETAIL_IMAGE_MAP["11"].imageList[1].src,
     id: "11",
+  },
+  {
+    src: Cover20,
+    hiddenSrc: DETAIL_IMAGE_MAP["20"].imageList[1].src,
+    id: "20",
   },
   {
     src: Cover12,
